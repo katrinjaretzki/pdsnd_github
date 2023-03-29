@@ -25,3 +25,6 @@ washington.csv
 https://pandas.pydata.org/pandas-docs/stable/ 
 https://docs.scipy.org/doc/numpy-1.13.0/contents.html
 
+### Contributing
+When contributing to this repository, please first discuss the change you wish to make via issue with the owner of this repository before making a change.
+
