@@ -15,6 +15,8 @@ A variety of **descriptive statistics** has been computed:
 * Trip duration
 * User information
 
+The project is an interactive experience that answers questions about the dataset, depending on a user's input.
+
 ### Files used
 bikeshare.py
 chicago.csv
