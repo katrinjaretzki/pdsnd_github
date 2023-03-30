@@ -194,8 +194,8 @@ def user_stats(df):
     
     try:
         aux = df['Birth Year']
-        earliest_year_of_birth = df['Birth Year'].min()
-        print('Earliest year of birth:', earliest_year_of_birth)
+        earliest_birthyear = df['Birth Year'].min()
+        print('Earliest year of birth:', earliest_birthyear)
    
         most_recent_year_of_birth = df['Birth Year'].max()
         print('Most recent year of birth in New York City:', most_recent_year_of_birth)
