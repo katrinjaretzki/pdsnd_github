@@ -77,7 +77,7 @@ def load_data(city, month, day):
     # convert column Start Time to datetime
     df['Start Time'] = pd.to_datetime(df['Start Time'])
       
-    # extract month, day, hour from Start Time column and create columns 'month', 'day'and 'hour'
+    # extract month, day and hour from Start Time column and create columns 'month', 'day' and 'hour'
     df['month'] = df['Start Time'].dt.month
     df['day'] = df['Start Time'].dt.weekday_name
     df['hour'] = df['Start Time'].dt.hour
