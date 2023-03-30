@@ -197,11 +197,11 @@ def user_stats(df):
         earliest_birthyear = df['Birth Year'].min()
         print('Earliest year of birth:', earliest_birthyear)
    
-        most_recent_year_of_birth = df['Birth Year'].max()
-        print('Most recent year of birth in New York City:', most_recent_year_of_birth)
+        most_recent_birthyear = df['Birth Year'].max()
+        print('Most recent year of birth in New York City:', most_recent_birthyear)
    
-        most_common_year_of_birth = df['Birth Year'].value_counts().idxmax()
-        print('Most common year of birth:', most_common_year_of_birth)
+        most_common_birthyear = df['Birth Year'].value_counts().idxmax()
+        print('Most common year of birth:', most_common_birthyear)
     except KeyError:
         print('For this city there is no Birth Year data available.')
         
