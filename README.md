@@ -4,10 +4,10 @@
 03/29/23
 
 ### Project Title
-##Explore US Bikeshare Data
+Explore US Bikeshare Data
 
 ### Description
-In this project, Python is used to explore data related to bike share systems for three major cities in the United States: Chicago, New York City, and Washington. The data was provided by [Motivate] (https://motivateco.com/), a bike share system provider for many major cities in the United States to uncover bike share usage patterns.
+In this project, Python is used to explore data related to bike share systems for three major cities in the United States: Chicago, New York City, and Washington. The data was provided by [Motivate](https://motivateco.com/), a bike share system provider for many major cities in the United States to uncover bike share usage patterns.
 
 A variety of **descriptive statistics** has been computed:
 * Popular times of travel
@@ -18,14 +18,14 @@ A variety of **descriptive statistics** has been computed:
 The project is an interactive experience that answers questions about the dataset, depending on a user's input.
 
 ### Files used
-bikeshare.py
-chicago.csv
-new_york_city.csv
-washington.csv
+* bikeshare.py
+* chicago.csv
+* new_york_city.csv
+* washington.csv
 
 ### Credits
-https://pandas.pydata.org/pandas-docs/stable/ 
-https://docs.scipy.org/doc/numpy-1.13.0/contents.html
+* https://pandas.pydata.org/pandas-docs/stable/ 
+* https://docs.scipy.org/doc/numpy-1.13.0/contents.html
 
 ### Contributing
 When contributing to this repository, please first discuss the change you wish to make via issue with the owner of this repository before making a change.
